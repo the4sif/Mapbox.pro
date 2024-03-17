@@ -1,0 +1,44 @@
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#F7F4F0"
+    app:layout_collapseMode="pin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/navigation"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="false"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/menu"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/logodash"/>
+
+        <ImageButton
+            android:id="@+id/navprofile"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/user"/>
+
+
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

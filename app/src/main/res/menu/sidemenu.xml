@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:title="Categories">
+
+
+
+            <menu>
+
+                <item
+                    android:id="@+id/notes"
+                    android:icon="@drawable/notes"
+                    android:title="Notes" />
+
+                <item
+                    android:id="@+id/course"
+                    android:icon="@drawable/course"
+                    android:title="Course" />
+
+                <item
+                    android:id="@+id/internal"
+                    android:icon="@drawable/internal"
+                    android:title="Internal Paper" />
+
+                <item
+                    android:id="@+id/lastsem"
+                    android:icon="@drawable/lastsempaper"
+                    android:title="Last Sem Paper" />
+
+                <item
+                    android:id="@+id/mock"
+                    android:icon="@drawable/mock"
+                    android:title="Mock Paper" />
+
+                <item
+                    android:id="@+id/Events"
+                    android:icon="@drawable/events"
+                    android:title="Events" />
+
+                <item
+                    android:id="@+id/announcement"
+                    android:icon="@drawable/announcement"
+                    android:title="Announcement" />
+
+                <item
+                    android:id="@+id/books"
+                    android:icon="@drawable/books"
+                    android:title="Books" />
+
+                <item
+                    android:id="@+id/placement"
+                    android:icon="@drawable/job"
+                    android:title="Placement" />
+                <item
+                    android:id="@+id/Term"
+                    android:icon="@drawable/aboutujs"
+                    android:title="About us" />
+                <item
+                    android:id="@+id/Help"
+                    android:icon="@drawable/help"
+                    android:title="Help &amp; Support" />
+
+
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

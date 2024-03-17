@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#F7F4F0"
+    android:fitsSystemWindows="true"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:id="@+id/liner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FCC055">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/profilef"
+        android:layout_marginBottom="10dp"
+        app:civ_border_color="@color/white"
+        android:layout_gravity="center"
+        app:civ_border_width="2dp"
+      />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Mohd Asif"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="mohdasif.ms@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/liner"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/profilebrdr"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Mohd Asif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/profilebrdr"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="University Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/profilebrdr"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="College Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/profilebrdr"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Course Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/profilebrdr"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:text="Years" />
+
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/categry"
+            android:elevation="4dp"
+            android:text="Logout"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>
